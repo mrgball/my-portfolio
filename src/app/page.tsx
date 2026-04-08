@@ -5,7 +5,7 @@ import Services from "@/components/Services";
 import Skills from "@/components/Skills";
 import Process from "@/components/Process";
 import Projects from "@/components/Projects";
-import Testimonials from "@/components/Testimonials";
+// import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <Skills />
         <Process />
         <Projects />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Contact />
         <Footer />
       </main>

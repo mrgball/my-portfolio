@@ -9,10 +9,10 @@ export default function Hero() {
   return (
     <section className="pt-20 pb-16 sm:pt-28 sm:pb-20">
       {/* Available badge */}
-      <div className="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400 bg-stone-100 dark:bg-stone-800/60 border border-accent-300 dark:border-accent-700/40 rounded-full px-3.5 py-1.5 w-fit mb-8 animate-fade-in">
+      {/* <div className="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400 bg-stone-100 dark:bg-stone-800/60 border border-accent-300 dark:border-accent-700/40 rounded-full px-3.5 py-1.5 w-fit mb-8 animate-fade-in">
         <span className="w-1.5 h-1.5 rounded-full bg-[var(--accent)] flex-shrink-0 animate-pulse" />
         {t("available")}
-      </div>
+      </div> */}
 
       {/* Headline */}
       <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.1] tracking-tight mb-6 animate-fade-up">
